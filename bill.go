@@ -64,14 +64,14 @@ func printFinalBill() {
 	}
 	fmt.Println()
 
-	fmt.Printf("\n%52s\n", "JAIPUR BHOJANALYA")
+	fmt.Printf("\n%52s\n", "haridwar haat")
 	time.Sleep(time.Millisecond * 200)
 	fmt.Printf("%s\n", strings.Repeat("*", 91))
 	time.Sleep(time.Millisecond * 200)
-	fmt.Printf("%86s\n", "Bhawani Singh Road, First Floor, Jaipur Bhojanalya, Jaipur, Jaipur 302005, Bharat")
+	fmt.Printf("%86s\n", "Bhawani Singh Road, First Floor, Haridawr haat haridwar, Bharat")
 	time.Sleep(time.Millisecond * 200)
 	fmt.Printf("%50s\n", "Tel: 92145623XX")
-	fmt.Printf("%60s\n\n", "Email: jaipur.bhojanalaya@gmail.com")
+	fmt.Printf("%60s\n\n", "Email: haat.bhojanalaya@gmail.com")
 	time.Sleep(time.Millisecond * 200)
 	fmt.Printf("%s", strings.Repeat("-", 42))
 	fmt.Printf("%s", "INVOICE")
